@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FusorConsole.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="NuclearReaction.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="FusorReaction.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Reaction.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LICENSE.H">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DeuteriumAndTritium.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantumEnergyTeleportation.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantumTeleportation.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FusorConsole.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FusorReaction.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="NuclearReaction.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Reaction.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="LICENSE.CPP">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DeuteriumAndTritium.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantumEnergyTeleportation.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="QuantumTeleportation.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FusorConsole.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.TXT" />
+    <Text Include="CarbonatedСar.txt" />
+    <Text Include="TrTrMitya.txt" />
+    <Text Include="Shapoklyak_And_Balloons.txt" />
+    <Text Include="FISHERMAN.TXT" />
+    <Text Include="ScowsFullOfMullet.TXT" />
+    <Text Include="README.MD" />
+    <Text Include="JollyFellows.URL" />
+    <Text Include="FISHING %2812%29.URL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="icon1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="EARRINGS.BMP">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="EARRINGS.PNG">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="BALLOONS.BMP">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="BALLOONS.PNG">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="LASER.PNG">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="LASER.BMP">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="EARRINGS %282%29.BMP">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="EARRINGS %282%29.PNG">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="TheSuicideClubOrTheAdventuresOfATitledPerson.URL">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CarbonatedСar.url" />
+    <None Include="Dmitry_Pobedinsky._Assemble_a_FUSION REACTOR_at_home.url" />
+    <None Include="FISHING.URL" />
+    <None Include="How_A_12-Year-Old_Achieved_Nuclear_Fusion.url" />
+    <None Include="DIY_Nuclear_Fusion_Reactor_-_Deuterium_Fusor.url" />
+    <None Include="Shapoklyak_And_Balloons.url" />
+    <None Include="CarbonatedСar %283%29.url" />
+    <None Include="AlwaysSayAlways6.url" />
+    <None Include="ITER.URL" />
+    <None Include="LHC.URL" />
+    <None Include="LHC %282%29.URL" />
+    <None Include="BIPM.URL" />
+    <None Include="InvitationToFrance.url" />
+    <None Include="FISHERMAN.URL" />
+    <None Include="LoveInParis.url" />
+    <None Include="CarbonatedСar %282%29.url" />
+    <None Include="YandexMapIter.url" />
+    <None Include="TrTrMitya.url" />
+    <None Include="jinr.url" />
+    <None Include="Fusor.pptx" />
+    <None Include="NRCKI.URL" />
+    <None Include="ROSATOM.URL" />
+    <None Include="IAEA.URL" />
+    <None Include="FISHERMAN %282%29.URL" />
+    <None Include="AES1.URL" />
+    <None Include="NPP.ZP.URL" />
+    <None Include="CHNPP.URL" />
+    <None Include="PARIS2024.URL" />
+    <None Include="ITER.PPTX" />
+    <None Include="LeopoldAndTheGoldfish.URL" />
+    <None Include="TheKidAndCarlson.URL" />
+    <None Include="TheTaleOfTheFishermanAndTheFish.URL" />
+    <None Include="WaitForIt7.URL" />
+    <None Include="WaitForIt1.URL" />
+    <None Include="WaitForIt2.URL" />
+    <None Include="ScowsFullOfMullet.URL" />
+    <None Include="ScowsFullOfMullet (2).URL" />
+    <None Include="WaitForIt6.url" />
+    <None Include="WaitForIt16.url" />
+    <None Include="WaitForIt17.url" />
+    <None Include="WaitForIt6 (2).url" />
+    <None Include="FeaturesOfNationalFishing.URL" />
+    <None Include="LeopoldTheCatInADreamAndInReality.url" />
+    <None Include="WaitForIt19.url" />
+    <None Include="AlwaysSayAlways3.url" />
+    <None Include="AlwaysSayAlways5.url" />
+    <None Include="AlwaysSayAlways5 (2).url" />
+    <None Include="StripedFlight.url" />
+    <None Include="WinnieThePooh.url" />
+    <None Include="WinnieThePooh %282%29.url" />
+    <None Include="WinnieThePooh.txt" />
+    <None Include="WinnieThePooh %282%29.txt" />
+    <None Include="SummerOfLeopoldTheCat.url" />
+    <None Include="SummerOfLeopoldTheCat (2).url" />
+    <None Include="WinnieThePooh %283%29.url" />
+    <None Include="UndergroundSea.url" />
+    <None Include="LICENSE.URL" />
+    <None Include="agplru.url" />
+    <None Include="GITHUB.URL" />
+    <None Include="WaitForItCatchAStar.URL" />
+    <None Include="LICENSE %282%29.URL" />
+    <None Include="3+2.URL" />
+    <None Include="3+2 (2).URL" />
+    <None Include="TrueFriends.URL" />
+    <None Include="TheMedicineMan.URL" />
+    <None Include="WeatherIsGoodOnDeribasovskaya,ItRainsAgainOnBrightonBeach.URL" />
+    <None Include="TheAdventuresOfTheElektronic.url" />
+    <None Include="TheMedicineMan (2).URL" />
+    <None Include="TheMedicineMan %283%29.URL" />
+    <None Include="TheMedicineMan (4).url" />
+    <None Include="NamelessStar.url" />
+    <None Include="TheMedicineMan %285%29.URL" />
+    <None Include="HisNameWasRobert.URL" />
+    <None Include="TheMedicineMan %286%29.URL" />
+    <None Include="TheMedicineMan %287%29.URL" />
+    <None Include="TheMedicineMan %288%29.URL" />
+    <None Include="HisNameWasRobert %282%29.URL" />
+    <None Include="TheMedicineMan %289%29.URL" />
+    <None Include="TheMedicineMan %2810%29.URL" />
+    <None Include="TheMedicineMan %2811%29.URL" />
+    <None Include="TheMedicineMan %2812%29.URL" />
+    <None Include="TheMedicineMan %2813%29.URL" />
+    <None Include="TheMedicineMan %2814%29.URL" />
+    <None Include="TheMedicineMan %2815%29.URL" />
+    <None Include="TheMedicineMan %2816%29.URL" />
+    <None Include="Dmitry_Pobedinsky._Assemble_a_FUSION REACTOR_at_home (2).URL" />
+    <None Include="PASSPORT.URL" />
+    <None Include="PASSPORT %282%29.URL" />
+    <None Include="WaitForIt2 %282%29.URL" />
+    <None Include="Kidnapping,CaucasianStyle2Version.URL" />
+    <None Include="Kidnapping,CaucasianStyle2Version %282%29.URL" />
+    <None Include="InvestigationHeldByKolobki.url" />
+    <None Include="InvestigationHeldByKolobki %282%29.url" />
+    <None Include="InvestigationHeldByKolobki %283%29.url" />
+    <None Include="InvestigationHeldByKolobki %284%29.url" />
+    <None Include="InvestigationHeldByKolobki %285%29.url" />
+    <None Include="GiveMeLife.URL" />
+    <None Include="GiveMeLife %282%29.URL" />
+    <None Include="GiveMeLife %283%29.URL" />
+    <None Include="GiveMeLife %284%29.URL" />
+    <None Include="CaptainNemo.URL" />
+    <None Include="CaptainNemo %282%29.URL" />
+    <None Include="FISHING %282%29.URL" />
+    <None Include="BALLOONS.URL" />
+    <None Include="FISHING %283%29.URL" />
+    <None Include="FISHING %284%29.URL" />
+    <None Include="FISHING %285%29.URL" />
+    <None Include="FISHING %286%29.URL" />
+    <None Include="FISHING %287%29.URL" />
+    <None Include="FISHING %288%29.URL" />
+    <None Include="FISHING %289%29.URL" />
+    <None Include="FISHING %2810%29.URL" />
+    <None Include="FISHING %2811%29.URL" />
+    <None Include="BALLOONS %282%29.URL" />
+    <None Include="BALLOONS %283%29.URL" />
+    <None Include="QuantumEnergyTeleportation.URL" />
+    <None Include="QuantumEnergyTeleportation %282%29.URL" />
+    <None Include="IBMQuantum.URL" />
+    <None Include="QuantumEnergyTeleportation %283%29.URL" />
+    <None Include="QuantumEnergyTeleportation %284%29.URL" />
+    <None Include="QuantumEnergyTeleportation %285%29.URL" />
+    <None Include="SavannahNonGNU.URL" />
+    <None Include="SavannahGNU.URL" />
+    <None Include="QuantumEnergyTeleportation %286%29.URL" />
+    <None Include="BALLOONS %284%29.URL" />
+    <None Include="IBMQuantum %282%29.url" />
+    <None Include="ThePilotBrothersSometimesCatchFish.url" />
+    <None Include="BALLOONS %285%29.url" />
+    <None Include="QuantumEnergyTeleportation %287%29.URL" />
+    <None Include="QuantumEnergyTeleportation %288%29.URL" />
+    <None Include="wormhole.url" />
+    <None Include="PeculiaritiesOfTheNationalHunt.URL" />
+    <None Include="PeculiaritiesOfTheNationalHunt %282%29.URL" />
+    <None Include="PeculiaritiesOfTheNationalHuntInWinterSeason.URL" />
+    <None Include="PeculiaritiesOfTheNationalHuntInWinterSeason %283%29.URL" />
+    <None Include="FISHING %2813%29.URL" />
+    <None Include="PeculiaritiesOfTheNationalHuntInWinterSeason %282%29.URL" />
+    <None Include="FISHING %2814%29.URL" />
+    <None Include="PeculiaritiesOfNationalPolitics %282%29.URL" />
+    <None Include="PeculiaritiesOfNationalPolitics.URL" />
+    <None Include="DemonstrationOfQuantumEnergyTeleportationOnSuperconductingQuantumHardware.URL" />
+    <None Include="PeculiaritiesOfNationalPolitics %283%29.URL" />
+    <None Include="CERN.URL" />
+    <None Include="PASSPORT %281%29.URL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Video-20221225_184134-Meeting Recording.mp4" />
+    <Media Include="Video-20230110_183604-Meeting Recording.mp4" />
+  </ItemGroup>
+</Project>

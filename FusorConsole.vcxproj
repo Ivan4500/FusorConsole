@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{95745c7e-afd0-4bd2-8317-4477e9c4b088}</ProjectGuid>
+    <RootNamespace>FusorConsole</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DeuteriumAndTritium.h" />
+    <ClInclude Include="LICENSE.H" />
+    <ClInclude Include="NuclearReaction.h" />
+    <ClInclude Include="FusorReaction.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="FusorConsole.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="QuantumEnergyTeleportation.h" />
+    <ClInclude Include="QuantumTeleportation.h" />
+    <ClInclude Include="Reaction.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeuteriumAndTritium.cpp" />
+    <ClCompile Include="LICENSE.CPP" />
+    <ClCompile Include="NuclearReaction.cpp" />
+    <ClCompile Include="FusorReaction.cpp" />
+    <ClCompile Include="FusorConsole.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="QuantumEnergyTeleportation.cpp" />
+    <ClCompile Include="QuantumTeleportation.cpp" />
+    <ClCompile Include="Reaction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FusorConsole.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CarbonatedСar.txt" />
+    <Text Include="FISHERMAN.TXT" />
+    <Text Include="README.MD" />
+    <Text Include="ScowsFullOfMullet.TXT" />
+    <Text Include="Shapoklyak_And_Balloons.txt" />
+    <Text Include="JollyFellows.URL" />
+    <Text Include="TrTrMitya.txt" />
+    <Text Include="LICENSE.TXT" />
+    <Text Include="FISHING %2812%29.URL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="EARRINGS %282%29.PNG" />
+    <Image Include="EARRINGS %282%29.BMP" />
+    <Image Include="EARRINGS.PNG" />
+    <Image Include="icon1.bmp" />
+    <Image Include="icon1.png" />
+    <Image Include="EARRINGS.BMP" />
+    <Image Include="BALLOONS.BMP" />
+    <Image Include="BALLOONS.PNG" />
+    <Image Include="TheSuicideClubOrTheAdventuresOfATitledPerson.URL" />
+    <Image Include="LASER.BMP" />
+    <Image Include="LASER.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CERN.URL" />
+    <None Include="PASSPORT %281%29.URL" />
+    <None Include="FISHING %2814%29.URL" />
+    <None Include="PeculiaritiesOfNationalPolitics %282%29.URL" />
+    <None Include="PeculiaritiesOfNationalPolitics %283%29.URL" />
+    <None Include="PeculiaritiesOfTheNationalHuntInWinterSeason %283%29.URL" />
+    <None Include="FISHING %2813%29.URL" />
+    <None Include="PeculiaritiesOfTheNationalHuntInWinterSeason %282%29.URL" />
+    <None Include="PeculiaritiesOfTheNationalHuntInWinterSeason.URL" />
+    <None Include="PeculiaritiesOfTheNationalHunt %282%29.URL" />
+    <None Include="PeculiaritiesOfTheNationalHunt.URL" />
+    <None Include="wormhole.url" />
+    <None Include="QuantumEnergyTeleportation %288%29.URL" />
+    <None Include="QuantumEnergyTeleportation %287%29.URL" />
+    <None Include="BALLOONS %283%29.URL" />
+    <None Include="BALLOONS %282%29.URL" />
+    <None Include="BALLOONS %284%29.URL" />
+    <None Include="BALLOONS.URL" />
+    <None Include="CaptainNemo %282%29.URL" />
+    <None Include="CaptainNemo.URL" />
+    <None Include="BALLOONS %285%29.url" />
+    <None Include="IBMQuantum %282%29.url" />
+    <None Include="QuantumEnergyTeleportation %286%29.URL" />
+    <None Include="SavannahNonGNU.URL" />
+    <None Include="SavannahGNU.URL" />
+    <None Include="QuantumEnergyTeleportation %283%29.URL" />
+    <None Include="QuantumEnergyTeleportation %284%29.URL" />
+    <None Include="FISHING %283%29.URL" />
+    <None Include="FISHING %282%29.URL" />
+    <None Include="FISHING %284%29.URL" />
+    <None Include="FISHING %285%29.URL" />
+    <None Include="FISHING %286%29.URL" />
+    <None Include="FISHING %287%29.URL" />
+    <None Include="FISHING %288%29.URL" />
+    <None Include="FISHING %289%29.URL" />
+    <None Include="FISHING %2810%29.URL" />
+    <None Include="FISHING %2811%29.URL" />
+    <None Include="GiveMeLife %282%29.URL" />
+    <None Include="GiveMeLife %283%29.URL" />
+    <None Include="GiveMeLife %284%29.URL" />
+    <None Include="GiveMeLife.URL" />
+    <None Include="InvestigationHeldByKolobki %282%29.url" />
+    <None Include="InvestigationHeldByKolobki %283%29.url" />
+    <None Include="InvestigationHeldByKolobki %284%29.url" />
+    <None Include="InvestigationHeldByKolobki %285%29.url" />
+    <None Include="InvestigationHeldByKolobki.url" />
+    <None Include="Kidnapping,CaucasianStyle2Version %282%29.URL" />
+    <None Include="Kidnapping,CaucasianStyle2Version.URL" />
+    <None Include="3+2 (2).URL" />
+    <None Include="3+2.URL" />
+    <None Include="AlwaysSayAlways3.url" />
+    <None Include="AlwaysSayAlways5 (2).url" />
+    <None Include="AlwaysSayAlways5.url" />
+    <None Include="LICENSE %282%29.URL" />
+    <None Include="Dmitry_Pobedinsky._Assemble_a_FUSION REACTOR_at_home (2).URL" />
+    <None Include="HisNameWasRobert %282%29.URL" />
+    <None Include="PASSPORT %282%29.URL" />
+    <None Include="PASSPORT.URL" />
+    <None Include="QuantumEnergyTeleportation %282%29.URL" />
+    <None Include="QuantumEnergyTeleportation %285%29.URL" />
+    <None Include="QuantumEnergyTeleportation.URL" />
+    <None Include="TheMedicineMan %288%29.URL" />
+    <None Include="HisNameWasRobert.URL" />
+    <None Include="NamelessStar.url" />
+    <None Include="TheMedicineMan %2810%29.URL" />
+    <None Include="TheMedicineMan %2811%29.URL" />
+    <None Include="TheMedicineMan %2812%29.URL" />
+    <None Include="TheMedicineMan %2814%29.URL" />
+    <None Include="TheMedicineMan %2815%29.URL" />
+    <None Include="TheMedicineMan %2816%29.URL" />
+    <None Include="TheMedicineMan (2).URL" />
+    <None Include="TheAdventuresOfTheElektronic.url" />
+    <None Include="TheMedicineMan %283%29.URL" />
+    <None Include="TheMedicineMan (4).url" />
+    <None Include="TheMedicineMan %285%29.URL" />
+    <None Include="TheMedicineMan %286%29.URL" />
+    <None Include="TheMedicineMan %287%29.URL" />
+    <None Include="TheMedicineMan %289%29.URL" />
+    <None Include="WaitForIt2 %282%29.URL" />
+    <None Include="WeatherIsGoodOnDeribasovskaya,ItRainsAgainOnBrightonBeach.URL" />
+    <None Include="TheMedicineMan.URL" />
+    <None Include="TrueFriends.URL" />
+    <None Include="FeaturesOfNationalFishing.URL" />
+    <None Include="GITHUB.URL" />
+    <None Include="WaitForItCatchAStar.URL" />
+    <None Include="WinnieThePooh.txt" />
+    <None Include="WinnieThePooh %282%29.txt" />
+    <None Include="LeopoldTheCatInADreamAndInReality.url" />
+    <None Include="LeopoldAndTheGoldfish.URL" />
+    <None Include="ScowsFullOfMullet (2).URL" />
+    <None Include="ScowsFullOfMullet.URL" />
+    <None Include="WinnieThePooh %283%29.url" />
+    <None Include="UndergroundSea.url" />
+    <None Include="LICENSE.URL" />
+    <None Include="agplru.url" />
+    <None Include="SummerOfLeopoldTheCat (2).url" />
+    <None Include="SummerOfLeopoldTheCat.url" />
+    <None Include="TheKidAndCarlson.URL" />
+    <None Include="TheTaleOfTheFishermanAndTheFish.URL" />
+    <None Include="CarbonatedСar %282%29.url" />
+    <None Include="BIPM.URL" />
+    <None Include="CarbonatedСar %283%29.url" />
+    <None Include="CHNPP.URL" />
+    <None Include="DIY_Nuclear_Fusion_Reactor_-_Deuterium_Fusor.url" />
+    <None Include="FISHERMAN.URL" />
+    <None Include="FISHERMAN %282%29.URL" />
+    <None Include="AlwaysSayAlways6.url" />
+    <None Include="Fusor.pptx" />
+    <None Include="How_A_12-Year-Old_Achieved_Nuclear_Fusion.url" />
+    <None Include="FISHING.URL" />
+    <None Include="Dmitry_Pobedinsky._Assemble_a_FUSION REACTOR_at_home.url" />
+    <None Include="CarbonatedСar.url" />
+    <None Include="AES1.URL" />
+    <None Include="IAEA.URL" />
+    <None Include="ITER.PPTX" />
+    <None Include="NPP.ZP.URL" />
+    <None Include="NRCKI.URL" />
+    <None Include="PARIS2024.URL" />
+    <None Include="ROSATOM.URL" />
+    <None Include="WaitForIt1.URL" />
+    <None Include="WaitForIt16.url" />
+    <None Include="WaitForIt17.url" />
+    <None Include="WaitForIt19.url" />
+    <None Include="WaitForIt2.URL" />
+    <None Include="WaitForIt6 (2).url" />
+    <None Include="WaitForIt6.url" />
+    <None Include="WaitForIt7.URL" />
+    <None Include="YandexMapIter.url" />
+    <None Include="TrTrMitya.url" />
+    <None Include="InvitationToFrance.url" />
+    <None Include="ITER.URL" />
+    <None Include="LHC %282%29.URL" />
+    <None Include="LHC.URL" />
+    <None Include="Shapoklyak_And_Balloons.url" />
+    <None Include="LoveInParis.url" />
+    <None Include="jinr.url" />
+    <None Include="StripedFlight.url" />
+    <None Include="WinnieThePooh.url" />
+    <None Include="WinnieThePooh %282%29.url" />
+    <None Include="TheMedicineMan %2813%29.URL" />
+    <None Include="ThePilotBrothersSometimesCatchFish.url" />
+    <None Include="PeculiaritiesOfNationalPolitics.URL" />
+    <None Include="DemonstrationOfQuantumEnergyTeleportationOnSuperconductingQuantumHardware.URL" />
+    <None Include="IBMQuantum.URL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Video-20221225_184134-Meeting Recording.mp4" />
+    <Media Include="Video-20230110_183604-Meeting Recording.mp4" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
